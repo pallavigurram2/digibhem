@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form action="canceled.html">
+    <div class="cancelap">
+        <div class="cancel">
+        <center>
+            <h2>APPOINTMENT CANCELLATION FORM</h2>
+</center>
+<label>BOOKED DEPARTMENT NAME:</label>
+<select name="dept" id="name"  style="width: 350px;height:35px;margin-top:20px;">
+    <option value="state"></option>
+    <option value="state">CARDIOLOGIST(Heart Specialist)</option>
+            <option value="Andhra">DENTIST(Teeth Specialist)</option>
+            <option value="tele">DERMATOLOGIST(Skin Doctor)</option>
+            <option value="Andhra">NEUROLOGIST(Nerves Specialist)</option>
+            <option value="Andhra">GYNECOLOIST(Womens Doctor)</option>
+            <option value="Andhra">PSYCHOLOGIST(Deals Mental Health Problems)</option>
+            <option value="Andhra">PAEDIATRICIAN(Chlid Doctor)</option>
+            <option value="Andhra">PULMONOLOGIST(Lungs Doctor)</option>
+            <option value="Andhra">OPHTHALMOLOGIST(Eye Doctor)</option>
+            <option value="Andhra">ONCOLOGIST(Cancer Specialist)</option>
+            <option value="Andhra">GASTROENTEROLOGISTS(organs Doctor)</option>
+            <option value="Andhra">HEMATOLOGISTS(Deals with Blood Related Problems)</option>
+            <option value="Andhra">NEPHROLOGIST(Kidney Specialist)</option>
+            <option value="Andhra">OTOLARYNGOLOGISTS(Ears,Nose Specialist)</option>
+            <option value="Andhra">SURGEONS(Deals Operations)</option>
+</select><br>
+<label> BOOKED APPOINTMENT TYPE:</label>
+<select name="app" id="type" style="width: 300px;height:35px;margin-top:20px;">
+    <option value="state"></option>
+    <option value="state">Medical Examination</option>
+            <option value="A">check-up</option>
+            <option value="t">Result Analysis</option>
+</select><br>
+<label>BOOKED APPOINTMENT DATE:</label><br>
+<input type="date" id="dob" name="dob"><br>
+<label for="appt">BOOKED APPOINTMENT TIME:</label><br>
+<input type="time" id="appt" name="appt"
+       min="06:00AM" max="18:00PM" required><br>
+       <center>
+        <center>
+            <button onclick="submit"  style="margin-top:20px;">CANCEL FORM</button>
+         </center>
+    </div>
+</form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Bookapp</title>
+</head>
+<body>
+    <form action="booked.html">
+    <div class="app">
+        <div class="backimage">
+        <center>
+        <h2>BOOK APPOINTMENT FORM</h2><br>
+    </center>
+    <label>FIRST NAME:
+    <input  type="text" placeholder="Firstname">
+    </label>
+    <label style="margin-left: 30px;">LAST NAME:
+        <input  type="text" placeholder="Lastname">
+    </label>
+    <label style="margin-left: 40px;">EMAIL:
+<input type="email" placeholder="Enter your mail">
+    </label>
+    <label style="margin-left: 30px;">PHONE NO:
+        <input style="text-align: left;"  type="number" placeholder="91+">
+<div class="drop">
+<label style="margin-left: 40px;"   for="gender">GENDER:</label> 
+    <select name="gender" id="gender" style="width: 180px;height:35px;"> 
+        <option value="MALE">gender</option> 
+        <option value="MALE">MALE</option> 
+        <option value="FEMALE">FEMALE</option> 
+    </select>
+</div>
+       <label for="date">DATE OF BIRTH:</label>
+       <input type="date" id="dob" name="dob">
+        <label style="margin-left: 5px;">PATIENT PHONE NO:</label>
+         <input type="number" placeholder="+91"> 
+         <label style="margin-left: 30px;">ADDRESS:</label>
+         <input type="text" placeholder="Address">
+         <label style="margin-left: 100px;">CITY:</label>
+         <input type="text" placeholder="city">
+         
+         <label style="margin-left: 50px;">STATE:</label>
+         <select name="state" id="state" style="width: 205px;height:35px;">
+            <option value="state">state</option>
+            <option value="Andhra">Andhra Pradesh</option>
+            <option value="tele">Telangana</option>
+         </select>
+         <label style="margin-left: 160px;">COUNTRY:</label>
+         <select name="country" id="country" style="width: 205px;height:35px;">
+            <option value="state">country</option>
+            <option value="Andhra">INDIA</option>
+            <option value="tele">OTHERS</option>
+         </select><br><br>
+         <hr><br>
+         <h3>MEDICAL INFORMATION</h3><br>
+         <hr>
+         <label>HEALTH INSURANCE:</label>
+         <select name="health" id="health" style="width: 205px;height:35px;margin-top:20px;">
+            <option value="state"></option>
+            <option value="Andhra">YES</option>
+            <option value="tele">NO</option>
+         </select>
+         <label style="margin-left: 20px;">STATUS OF THE PATIENT:</label><input type="text" placeholder="status">
+<br><br><hr><br>
+<h3>APPOINTMENT INFORMATION</h3><br><hr>
+<label>DEPARTMENT:</label>
+<select name="dept" id="name"  style="width: 350px;height:35px;margin-top:20px;">
+    <option value="state"></option>
+    <option value="state">CARDIOLOGIST(Heart Specialist)</option>
+            <option value="Andhra">DENTIST(Teeth Specialist)</option>
+            <option value="tele">DERMATOLOGIST(Skin Doctor)</option>
+            <option value="Andhra">NEUROLOGIST(Nerves Specialist)</option>
+            <option value="Andhra">GYNECOLOIST(Womens Doctor)</option>
+            <option value="Andhra">PSYCHOLOGIST(Deals Mental Health Problems)</option>
+            <option value="Andhra">PAEDIATRICIAN(Chlid Doctor)</option>
+            <option value="Andhra">PULMONOLOGIST(Lungs Doctor)</option>
+            <option value="Andhra">OPHTHALMOLOGIST(Eye Doctor)</option>
+            <option value="Andhra">ONCOLOGIST(Cancer Specialist)</option>
+            <option value="Andhra">GASTROENTEROLOGISTS(organs Doctor)</option>
+            <option value="Andhra">HEMATOLOGISTS(Deals with Blood Related Problems)</option>
+            <option value="Andhra">NEPHROLOGIST(Kidney Specialist)</option>
+            <option value="Andhra">OTOLARYNGOLOGISTS(Ears,Nose Specialist)</option>
+            <option value="Andhra">SURGEONS(Deals Operations)</option>
+</select><br>
+<label>APPOINTMENT TYPE:</label>
+<select name="app" id="type" style="width: 300px;height:35px;margin-top:20px;">
+    <option value="state"></option>
+    <option value="state">Medical Examination</option>
+            <option value="A">check-up</option>
+            <option value="t">Result Analysis</option>
+</select><br>
+<label>APPOINTMENT DATE:</label>
+<input type="date" id="dob" name="dob"><br>
+<label for="appt">APPOINTMENT TIME:</label>
+<input type="time" id="appt" name="appt"
+       min="06:00AM" max="18:00PM" required><br>
+       <center>
+       <button style="margin-top:20px;">Submit Form</button>
+    </center>
+</div>
+</form>
+    </div>
+</body>
+</html>

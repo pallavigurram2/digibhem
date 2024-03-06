@@ -1,0 +1,487 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+      background-repeat: no-repeat;  
+     background-size: 1550px 800px;  
+     padding: 0;
+     margin: 0;
+}
+.main{
+    background-image: url("https://t3.ftcdn.net/jpg/04/67/37/12/240_F_467371208_2cBvWthKecbY7PPW7rxmz99pKSkJPDPm.jpg");
+    background-repeat: no-repeat; 
+   background-size:cover;   
+      width:100%;
+    height:100vh;
+    position:relative;
+    overflow:hidden;
+    margin-top: 0px;
+    justify-content: center; 
+}
+.logos{
+    margin-top: 2px;
+}
+h1{
+    text-align: center;
+    margin-right:90px;
+    margin-top: 120px;
+    color:rgb(26, 26, 18);
+}
+.border{
+    border:lightgreen;
+    border-width:5px;
+    border-style:solid;
+    background-color:lightgreen;
+    margin-bottom: 5px;
+    padding:0;
+    width:99.42%;
+    height: 124px;
+}
+.quote{
+    text-align: center;
+   width: 500px;
+   height: 150px;
+   margin-right: 90px;
+    background-color: rgba(238, 130, 238, 0.795);
+    margin-top: 160px;
+}
+.nav-links{
+    flex: 1;
+    text-align: right;
+    color: #fff;
+    margin: 0 20px;
+    margin-top: -90px;
+    padding-left: 10px; 
+}
+.login{
+       background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbuI787qHXWOTulP2xvlsleqYB8zZo0QbaL_O87Am1GQQCBJOm37CGMut_eyxQUZmY_XQ&usqp=CAU");
+    background-repeat: no-repeat;  
+    background-size: cover;
+    height:100%;
+    justify-content: center;
+    align-content: center;
+    padding-top:14%;
+    padding-left: 35%;
+    width: 100%;
+
+}
+.imageo {
+     background-color: rgba(250, 44, 164, 0.336); 
+      width: 450px;
+    height: 500;
+       padding: 20px;  
+} 
+ input{
+    border: none;
+    margin-bottom: 10px;
+    width: 300px;
+    height:50;
+    margin-top: 10px;
+    padding: 10px;
+    text-align: left;
+}
+.b1
+{
+    width: 300px;
+    height: 38px;
+    border-radius: 8px;
+    background-color: #3d067cbd;
+    color: white;
+    font: 70;
+    text-align: center;
+}
+button
+{
+    width: 300px;
+    height: 38px;
+    border-radius: 8px;
+    background-color: #3d067cbd;
+    color: white;
+    font: 70;
+}
+.forget{
+    margin: 10px;
+    text-align: right;
+    font-size: 14.5;
+    margin-right: 40px; 
+}  
+.signup{
+
+    text-align: center;
+    margin-top: 20px;
+}
+.fpassword{
+    background-color: rgba(255, 192, 203, 0.712);
+    width: 450px;
+    height: 500;
+    margin-top: 200px;
+    padding: 20px;
+    margin-left: 450px;
+}
+.signup-form{
+    background-color: rgba(255, 192, 203, 0.712);
+    width: 500px;
+    height: 500;
+    margin-top: 50px;
+    padding: 20px;
+    margin-left: 450px;
+}
+.image{
+  background-color: rgba(219, 109, 45, 0.582);  
+ background-image: url("https://miro.medium.com/v2/resize:fit:940/1*8gkjxil6BsPMHqe_Ry6BMg.jpeg");   
+ background-repeat: no-repeat;
+  height: 100%;
+ padding: 0;
+ width: 60%; 
+ background-size: cover;
+ justify-content: center;
+ display: flex;
+}
+.doctorsavaliable{
+    margin-left: 1000px;
+    margin-top: 70px;
+}
+.bookapp{
+    margin-left: 1000px;
+    margin-top: 70px;
+}
+.reschedule{
+    margin-left: 1000px;
+    margin-top: 70px;
+}
+.cancelapp{
+    margin-left: 1000px;
+    margin-top: 70px;
+}
+.doctors{
+    background-color: #7714143a;
+    padding: 0;
+}
+.heart{
+        background-color: lightgrey;
+        width: 250px;
+        border: 10px solid rgba(25, 80, 153, 0.671);
+        padding: 50px;
+        margin: 20px;
+        height: 90px;
+}
+.logo{
+    margin-top: -100px;
+    margin-right: 50px;
+}
+.teeth{
+    background-color: lightgrey;
+        width: 250px;
+        border: 10px solid rgba(25, 80, 153, 0.671);
+        padding: 50px;
+        margin: 20px;
+        margin-left:400px;
+        margin-top: -163px;
+        height: 90px;
+}
+.logo1{
+    margin-top: -100px;
+    margin-right: 50px;
+}
+.skin{
+    background-color: lightgrey;
+        width: 250px;
+        border: 10px solid rgba(25, 80, 153, 0.671);
+        padding: 50px;
+        margin: 20px;
+        margin-left:850px;
+        margin-top: -225px;
+        height: 90px;
+}
+.logo2{
+    margin-top: -135px;
+    margin-right: 50px;
+}
+.nerves{
+    background-color: lightgrey;
+    width: 250px;
+    border: 10px solid rgba(25, 80, 153, 0.671);
+    padding: 50px;
+    margin: 20px;
+    height: 90px;
+    margin-top: 40px;
+}
+.logo3{
+    margin-top: -100px;
+    margin-right: 50px; 
+}
+.preganancy{
+    background-color: lightgrey;
+        width: 250px;
+        border: 10px solid rgba(25, 80, 153, 0.671);
+        padding: 50px;
+        margin: 20px;
+        margin-left:400px;
+        margin-top: -160px;
+        height: 90px;
+}
+.logo4{
+    margin-top: -100px;
+    margin-right: 50px;
+}
+.psycho{
+    background-color: lightgrey;
+        width: 250px;
+        border: 10px solid rgba(25, 80, 153, 0.671);
+        padding: 50px;
+        margin: 20px;
+        margin-left:850px;
+        margin-top: -233px;
+        height: 90px;
+}
+.logo5{
+    margin-top: -120px;
+    margin-right: 50px;
+}
+.child{
+    background-color: lightgrey;
+    width: 250px;
+    border: 10px solid rgba(25, 80, 153, 0.671);
+    padding: 50px;
+    margin: 20px;
+    height: 90px;
+    margin-top: 40px;
+}
+.logo6{
+    margin-top: -100px;
+    margin-right: 50px;
+}
+.lungs{
+    background-color: lightgrey;
+        width: 250px;
+        border: 10px solid rgba(25, 80, 153, 0.671);
+        padding: 50px;
+        margin: 20px;
+        margin-left:400px;
+        margin-top: -170px;
+        height: 90px;
+}
+.logo7{
+    margin-top: -100px;
+    margin-right: 50px;
+}
+.eye{
+    background-color: lightgrey;
+        width: 250px;
+        border: 10px solid rgba(25, 80, 153, 0.671);
+        padding: 50px;
+        margin: 20px;
+        margin-left:850px;
+        margin-top: -230px;
+        height: 90px;
+}
+.logo8{
+    margin-top: -120px;
+    margin-right: 50px;
+}
+.cancer{
+    background-color: lightgrey;
+    width: 250px;
+    border: 10px solid rgba(25, 80, 153, 0.671);
+    padding: 50px;
+    margin: 20px;
+    height: 90px;
+    margin-top: 40px;
+}
+.logo9{
+    margin-top: -100px;
+    margin-right: 50px;
+}
+.organs{
+    background-color: lightgrey;
+        width: 250px;
+        border: 10px solid rgba(25, 80, 153, 0.671);
+        padding: 50px;
+        margin: 20px;
+        margin-left:400px;
+        margin-top: -170px;
+        height: 90px;
+}
+.logo10{
+    margin-top: -120px;
+    margin-right: 50px;
+}
+.blood{
+    background-color: lightgrey;
+        width: 250px;
+        border: 10px solid rgba(25, 80, 153, 0.671);
+        padding: 50px;
+        margin: 20px;
+        margin-left:850px;
+        margin-top: -230px;
+        height: 90px;
+}
+.logo11{
+    margin-top: -120px;
+    margin-right: 50px;
+}
+.kidney{
+    background-color: lightgrey;
+    width: 250px;
+    border: 10px solid rgba(25, 80, 153, 0.671);
+    padding: 50px;
+    margin: 20px;
+    height: 90px;
+    margin-top: 40px;
+}
+.logo12{
+    margin-top: -120px;
+    margin-right: 50px;
+}
+.ears{
+    background-color: lightgrey;
+        width: 250px;
+        border: 10px solid rgba(25, 80, 153, 0.671);
+        padding: 50px;
+        margin: 20px;
+        margin-left:400px;
+        margin-top: -180px;
+        height: 90px;
+}
+.logo13{
+    margin-top: -120px;
+    margin-right: 50px;
+}
+.surgeons{
+    background-color: lightgrey;
+        width: 250px;
+        border: 10px solid rgba(25, 80, 153, 0.671);
+        padding: 50px;
+        margin: 20px;
+        margin-left:850px;
+        margin-top: -240px;
+        height: 90px;
+}
+.logo14{
+    margin-top: -100px;
+    margin-right: 50px;
+}
+.xrays{
+    background-color: lightgrey;
+    width: 250px;
+    border: 10px solid rgba(25, 80, 153, 0.671);
+    padding: 50px;
+    margin: 20px;
+    height: 90px;
+    margin-top: 40px;
+}
+.logo15{
+    margin-top: -120px;
+    margin-right: 50px;
+}
+.app{
+    background-image: url("https://t3.ftcdn.net/jpg/02/16/47/22/360_F_216472247_cT66WDoS0fp1s3wC7eaykMJNDGVbOBPq.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+}
+.backimage{
+     background-color: rgba(255, 192, 203, 0.712);
+    width: 930px;
+    height: 500;
+    margin-top: 0px;
+    padding: 20px;
+    margin-left: 230px; 
+}
+ .drop{
+    border: none;
+    margin-bottom: 10px;
+    width: 300px;
+    height:50;
+    margin-top: 10px;
+    padding: 10px;
+    text-align: left;
+ }
+ .reschdule{
+    background-image: url("https://t3.ftcdn.net/jpg/02/16/47/22/240_F_216472247_cT66WDoS0fp1s3wC7eaykMJNDGVbOBPq.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+height: 650px;
+margin-top: -130px;
+padding-top: 9.5%;
+ }
+.res{
+    background-color: rgba(255, 192, 203, 0.712);
+    width: 930px;
+    width: 450px;
+    height: 500;
+    margin-top: 130px;
+    padding: 20px;
+    margin-left: 450px; 
+}
+.cancelap{
+ background-image: url("https://t3.ftcdn.net/jpg/02/16/47/22/240_F_216472247_cT66WDoS0fp1s3wC7eaykMJNDGVbOBPq.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+height: 650px;
+background-position: fixed; 
+margin-top: -180px;
+justify-content: center;
+    align-content: center;
+    padding-top:13%;
+}
+.cancel{ 
+background-color: rgba(250, 44, 164, 0.336); 
+width: 450px;
+height: 500;
+margin-top: 180px;
+padding: 20px;
+margin-left: 450px;   
+} 
+.books{
+background-image: url("https://t3.ftcdn.net/jpg/02/16/47/22/360_F_216472247_cT66WDoS0fp1s3wC7eaykMJNDGVbOBPq.jpg");
+background-size: cover;
+height: 650px;
+margin-top: -130px;
+padding-top: 9.5%;
+}
+.boo{
+    background-color: rgba(250, 44, 164, 0.336);  
+    width: 930px;
+    width: 450px;
+    height: 500;
+    margin-top: 130px;
+    padding: 20px;
+    margin-left: 450px; 
+} 
+.resu{
+    background-image: url("https://t3.ftcdn.net/jpg/02/16/47/22/360_F_216472247_cT66WDoS0fp1s3wC7eaykMJNDGVbOBPq.jpg");
+    background-size: cover;
+    height: 650px;
+    margin-top: -130px;
+padding-top: 9.5%;
+}
+.usr{
+    background-color: rgba(250, 44, 164, 0.336);  
+    width: 930px;
+    width: 450px;
+    height: 500;
+    margin-top: 130px;
+    padding: 20px;
+    margin-left: 450px; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
